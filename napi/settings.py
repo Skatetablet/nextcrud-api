@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'napi.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',        
+        default='postgresql://nextapi_user:CeR9zOrxxc7W8twHlXb2zMadbFolxwM7@dpg-cr6e7drv2p9s738tap80-a.oregon-postgres.render.com/nextapi',        
         conn_max_age=600    
         )
     }
